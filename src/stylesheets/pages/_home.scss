@@ -38,6 +38,8 @@
 			font-size: 1.5rem;
 			line-height: 2;
 			text-align: center;
+			font-family: 'aktivgrotesk';
+			font-weight: 500;
 
 			&:first-child {
 				margin-bottom: 1rem;
@@ -62,7 +64,89 @@
 				.category__decorator polygon {
 					fill: $white;
 				}
+
+				.category__image{
+					background-color: $yellow;
+					right:5%;
+					left:auto;
+
+					img{
+					 	padding-top: 15%;
+					 	padding-bottom: 0%;
+					}
+				}
+
+				.category__infos{
+					margin-left: 0;
+					margin-right:15%;
+					margin-bottom: 15%;
+					margin-top: 0;
+					text-align: left;
+
+					&__button{
+						&:hover{
+							color:$white;
+						}
+					}
+				}
 			}
+
+			&__image{
+				border-radius: 50%;
+				background-color: $white;
+				width:500px;
+				height:500px;
+				position:absolute;
+				top:50%;
+				transform:translateY(-50%);
+				left:5%;
+				z-index: 1;
+
+				img{
+					display:block;
+					margin:0 auto;
+					transform:translateY(-50%);
+					margin-top: 50%;
+					padding-bottom: 15%;
+					max-width: 500px;
+				}
+			}
+
+			&__infos{
+				position:relative;
+				z-index: 10;
+				width:55%;
+				margin-left:15%;
+				margin-top: 15%;
+				text-align: right;
+				color:$black;
+
+				h2{
+					font-size: 2rem;
+				}
+
+				h3{
+					font-size: 6rem;
+				}
+
+				&__button{
+					display:inline-block;
+					border:2px solid $blue;
+					font-size: 1rem;
+					padding:20px 30px;
+					color:$blue;
+					text-transform: uppercase;
+					margin-top: 20px;
+					transition:0.3s all ease-out;
+
+					&:hover{
+						background-color: $blue;
+						color:$yellow;
+					}
+				}
+			}
+
+
 
 			&__decorator {
 				position: absolute;
@@ -75,6 +159,54 @@
 				polygon {
 					fill: $yellow;
 				}
+			}
+		}
+	}
+
+	.footer{
+		background-image: url('/static/img/footer.svg');
+		background-position: center;
+		background-size: cover;
+		width:100vw;
+		height:100vh;
+		text-align: center;
+
+		p {
+			color: $white;
+			font-size: 1.5rem;
+			line-height: 2;
+			text-align: center;
+			padding:0 20%;
+			font-family: 'aktivgrotesk';
+			font-weight: 500;
+
+			&:first-child {
+				padding-top: 15%;
+				margin-bottom: 1rem;
+			}
+
+			&.footer__rights{
+				padding-top: 5%;
+				span{
+					font-weight: 300;
+				}
+			}
+		}
+
+		&__button{
+			display:inline-block;
+			border:2px solid $white;
+			font-size: 1rem;
+			padding:20px 30px;
+			color:$white;
+			background-color: $blue;
+			text-transform: uppercase;
+			margin-top: 5%;
+			transition:0.3s all ease-out;
+
+			&:hover{
+				background-color: $white;
+				color:$blue;
 			}
 		}
 	}
