@@ -1,0 +1,28 @@
+<div id="category">
+  <section class="hero">
+    <div class="hero__cover">
+      <img src="/static/img/categories/{{$route.params.category}}/drone.png" alt="">
+    </div>
+    <div class="hero__titles">
+      <h2>{{data.name}}</h2>
+      <h3>{{data.title}}</h3>
+    </div>
+    <img class="hero__decorator" src="/static/img/category_Above.svg" alt="">
+  </section>
+  <section class="articles">
+    <article class="article" v-for="drone in data.drones">
+      <div class="article__content">
+        <figure class="article__content__image">
+          <img src="/static/img/categories/{{$route.params.category}}/drone.png" alt="">
+        </figure>
+        <div class="article__content__titles">
+          <h4>{{drone.constructor}}
+            <small>
+              {{drone.name}}
+            </small>
+          </h4>
+        </div>
+      </div>
+    </article>
+  </section>
+</div>

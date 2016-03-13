@@ -1,18 +1,18 @@
 import Vue from 'vue'
+import Data from '../../data'
 
 export default Vue.extend({
-  name: 'Detail',
+  name: 'Category',
   template: require('./template.html'),
 
   ready () {
-    let key = this.$route.params.id
-    console.log(key)
-    console.log(this.$parent._context.data)
+    let key = this.$route.params.category
+    this.data = Data[key]
   },
 
   data () {
     return {
-      text: 'Nested view'
+      data: this.data
     }
   }
 })
