@@ -1,7 +1,7 @@
 <div id="category">
   <section class="hero">
     <div class="hero__cover">
-      <img src="/static/img/categories/{{$route.params.category}}/drone.png" alt="">
+      <img v-bind:src="coverUrl" alt="">
     </div>
     <div class="hero__titles">
       <h2>{{data.name}}</h2>
@@ -13,7 +13,7 @@
     <article class="article" v-for="drone in data.drones">
       <div class="article__content">
         <figure class="article__content__image">
-          <img src="/static/img/categories/{{$route.params.category}}/drone.png" alt="">
+          <img v-bind:src="drone.image" alt="">
         </figure>
         <div class="article__content__titles">
           <h4>{{drone.constructor}}
@@ -28,7 +28,7 @@
   </section>
   <section class="next">
     <p>Article suivant</p>
-    <h4>Le business de demain</h4>
+    <h5>Le business de demain</h5>
     <a href="/services">Les drones de services</a>
   </section>
 </div>
