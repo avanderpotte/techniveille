@@ -1,14 +1,30 @@
-<!-- <div class="hello">
-  <h1>{{ msg }}</h1>
-</div> -->
 <div id="home">
-	<section class="section-1">
-		<h1 class="section-1__title">
-			Drones
-			<small class="section-1__title__sub">
-				Techniveille DDI 2016
+	<section class="hero">
+		<h1 class="hero__title">
+			Un monde de<br>drone
+			<small class="hero__title__sub">
+				La révolution<br>sans pilote
 			</small>
 		</h1>
 	</section>
-</div>
 
+	<section class="presentation">
+		<p>Lorem Khaled Ipsum is a major key to success. Surround yourself with angels, positive energy, beautiful people, beautiful souls.</p>
+		<p>Surround yourself with angels, positive energy, beautiful people, beautiful souls, clean heart, angel. Lion! They will try to close the door on you, just open it. The first of the month is coming, we have to get money, we have no choice. It cost money to eat.</p>
+	</section>
+
+	<section class="categories">
+		<article class="category" v-for="cat in categories">
+			<svg version="1.1" class="category__decorator" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1440 132" style="enable-background:new 0 0 1440 132;" xml:space="preserve">
+				<polygon points="1440,132 1440,128 0,0 0,132"/>
+			</svg>
+			<div class="category__image">
+				<img src="http://placehold.it/300x300" alt="">
+			</div>
+			<div class="category__infos">
+				<h2>{{cat.name}}</h2>
+				<h3>{{cat.title}}</h3>
+			</div>
+		</article>
+	</section>
+</div>

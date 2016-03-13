@@ -1,0 +1,81 @@
+#home {
+	.hero {
+		width: 100vw;
+		height: 100vh;
+		font-weight: 500;
+		background-image: url('/static/img/home_Above.svg');
+		background-position: center;
+		background-size: cover;
+		position: relative;
+
+		&__title {
+			position: absolute;
+			left: 2.5rem;
+			bottom: 20%;
+			display: inline-block;
+			font-weight: 500;
+			font-size: 6rem;
+			color: $lightBlue;
+
+			&__sub {
+				display: block;
+				opacity: 0.5;
+			}
+		}
+	} // end of hero
+
+	.presentation {
+		width: 100vw;
+		height: 100vh;
+		padding: 0 20%;
+		display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+
+		p {
+			color: $blue;
+			font-size: 1.5rem;
+			line-height: 2;
+			text-align: center;
+
+			&:first-child {
+				margin-bottom: 1rem;
+			}
+		}
+	} // end of presentation
+
+	.categories {
+		.category {
+			width: 100vw;
+			height: 100vh;
+			display: flex;
+			flex-flow: column wrap;
+			justify-content: center;
+			align-items: center;
+			position: relative;
+			background-color: $yellow;
+
+			&:nth-child(even) {
+				background-color: $white;
+
+				.category__decorator polygon {
+					fill: $white;
+				}
+			}
+
+			&__decorator {
+				position: absolute;
+				top: 0;
+				left: 0;
+				transform: translateY(-100%);
+				width: 100%;
+				height: auto;
+
+				polygon {
+					fill: $yellow;
+				}
+			}
+		}
+	}
+}

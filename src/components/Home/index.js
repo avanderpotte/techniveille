@@ -1,4 +1,5 @@
 import Vue from 'vue'
+import Data from '../../data'
 
 export default Vue.extend({
   name: 'Home',
@@ -6,7 +7,7 @@ export default Vue.extend({
 
   data () {
     return {
-      msg: 'Home'
+      categories: Data
     }
   }
 })
