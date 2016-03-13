@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="1440px"
+	 height="960px" viewBox="0 0 1440 960" enable-background="new 0 0 1440 960" xml:space="preserve">
+<g id="Above">
+	<g id="Header">
+		<rect id="Background" fill="#3399FF" width="1440" height="960"/>
+		<rect x="192" y="413.448" fill="none" width="768" height="290.552"/>
+		<text transform="matrix(1 0 0 1 192 481.9912)" display="none"><tspan x="0" y="0" display="inline" fill="#C2E3FF" font-family="'AktivGrotesk-Medium'" font-size="96">Lorem  </tspan><tspan x="0" y="96" display="inline" fill="#C2E3FF" font-family="'AktivGrotesk-Medium'" font-size="96">DJ Khaled</tspan><tspan x="0" y="192" display="inline" opacity="0.5" fill="#C2E3FF" font-family="'AktivGrotesk-Medium'" font-size="96">Subtitle is here</tspan></text>
+		<g id="Paths">
+			<g>
+				<path fill="#3399FF" d="M359.903,510c-16.542,0-30-13.458-30-30s13.458-30,30-30s30,13.458,30,30S376.445,510,359.903,510z"/>
+				<path fill="#FFFFFF" d="M359.903,452c15.439,0,28,12.561,28,28s-12.561,28-28,28s-28-12.561-28-28S344.464,452,359.903,452
+					 M359.903,448c-17.673,0-32,14.327-32,32s14.327,32,32,32s32-14.327,32-32S377.577,448,359.903,448L359.903,448z"/>
+			</g>
+			<g>
+				<path fill="#FFFFFF" d="M855.036,524c11.028,0,20,8.972,20,20s-8.972,20-20,20s-20-8.972-20-20S844.008,524,855.036,524
+					 M855.036,520c-13.255,0-24,10.745-24,24s10.745,24,24,24s24-10.745,24-24S868.291,520,855.036,520L855.036,520z"/>
+			</g>
+			<g>
+				<path fill="#FFFFFF" d="M1024,152.489c22.056,0,40,17.944,40,40s-17.944,40-40,40s-40-17.944-40-40
+					S1001.944,152.489,1024,152.489 M1024,144.489c-26.51,0-48,21.49-48,48s21.49,48,48,48s48-21.49,48-48
+					S1050.51,144.489,1024,144.489L1024,144.489z"/>
+			</g>
+			<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" stroke-dasharray="24" d="
+				M1440,39.185c-3.003-0.285-6.048-0.43-9.126-0.43c-52.777,0-95.562,42.785-95.562,95.562
+				c0,87.174-70.668,157.842-157.842,157.842c-50.753,0-95.913-23.955-124.788-61.174"/>
+			<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-linecap="square" stroke-miterlimit="10" stroke-dasharray="24" d="
+				M0,540.56c1.788,0.105,3.589,0.159,5.403,0.159c49.982,0,90.5-40.518,90.5-90.5c0-72.901,59.099-132,132-132s132,59.099,132,132"
+				/>
+		</g>
+	</g>
+	<g id="Bottom">
+		<polygon id="Shape" opacity="0.2" fill="#FFFFFF" points="1440,960 0,851.1 0,960 		"/>
+		<polygon id="Shape_1_" opacity="0.2" fill="#FFFFFF" points="0,960 1440,746.105 1440,960 		"/>
+		<polygon id="Shape_2_" opacity="0.5" fill="#FFFFFF" points="0,794.103 1440,960 0,960 		"/>
+		<polygon id="Shape_5_" opacity="0.5" fill="#FFFFFF" points="0,857.062 1440,679.601 1440,960 0,960 		"/>
+		<polygon id="Shape_3_" opacity="0.5" fill="#FFFFFF" points="0,899.098 1440,794.103 1440,960 0,960 		"/>
+		<polygon id="Shape_4_" fill="#FFFFFF" points="1440,905.55 1440,960 0,960 0,948.597 		"/>
+	</g>
+	<path id="Scroll" display="none" fill="#231F20" d="M728,896h-16v-4h16V896z M736,884h-32v4h32V884z M722,870v-24h-4v24h-8l10,10
+		l10-10H722z"/>
+</g>
+<g id="Below">
+</g>
+<g id="List">
+</g>
+<g id="List--next">
+</g>
+<g id="List--next_1_">
+</g>
+<g id="Footer">
+</g>
+<g id="Home">
+</g>
+<g id="Article">
+</g>
+<g id="Popup">
+</g>
+</svg>

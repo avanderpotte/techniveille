@@ -1,0 +1,29 @@
+#home{
+	font-size: 10px;
+	.section-1{
+		display: block;
+		width:100vw;
+		height:100vh;
+		font-family: 'aktivgrotesk', serif;
+		font-style: normal;
+		font-weight: normal;
+		background-image: url('/static/img/home_Above.svg');
+		background-position: center;
+		background-size: cover;
+
+		&__title{
+			font-weight: 500;
+			font-size: 9.6em;
+			color:#FFFFFF;
+			opacity: 0.8;
+			padding-top: 36%;
+			padding-left:30px;
+
+			&__sub{
+				font-size: 0.9em;
+				display:block;
+				opacity: 0.6;
+			}
+		}
+	}
+}
