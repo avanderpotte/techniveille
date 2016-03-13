@@ -131,6 +131,7 @@
 
 				&__button{
 					@include button($blue, $yellow);
+					margin-top: 10px;
 					background-color: transparent;
 				}
 			}
