@@ -28,10 +28,9 @@
   </section>
   <modal v-bind:show.sync="showModal" v-ref:{{index}}>
 
-      <!-- Tester l'image -->
-      <img src="/static/img/drone.png" alt="" slot="image" class="modal-image">
+
       <!-- Quand les images seront dispos, dé-commente -->
-      <!-- <img v-bind:src="modalData.image"  alt="" slot="image" class="modal-image"> -->
+      <img v-bind:src="modalData.image"  alt="" slot="image" class="modal-image">
 
      <h4 slot="title">{{modalData.constructor}}
         <small>

@@ -3,6 +3,7 @@ const data = {
     slug: 'militaires',
     name: 'Les drones militaires',
     title: 'La guerre à distance',
+    img: '/static/militaires/neuron.png',
     drones: [
       {
         name: 'Orka-1200',
@@ -54,8 +55,10 @@ const data = {
     }
   },
   services: {
+    slug: 'services',
     name: 'Les drones de services',
     title: 'Le business de demain',
+    img: '/static/services/amazon.png',
     drones: [
       {
         name: 'R-Max',
@@ -107,7 +110,9 @@ const data = {
     }
   },
   loisir: {
+    slug: 'loisir',
     name: 'Les drones de loisir',
+    img: '/static/services/phantom.png',
     title: 'Le ciel pour terrain de jeu',
     drones: [
       {
