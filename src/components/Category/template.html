@@ -47,6 +47,6 @@
   <section class="next">
     <p>Article suivant</p>
     <h5>{{data.next.title}}</h5>
-    <a href="/services">{{data.next.name}}</a>
+    <a v-bind:href="data.next.slug">{{data.next.name}}</a>
   </section>
 </div>

@@ -8,6 +8,7 @@
   background-color: $secondary;
   text-transform: uppercase;
   transition:0.3s all ease-out;
+  cursor:pointer;
 
   &:hover{
     background-color: $primary;
