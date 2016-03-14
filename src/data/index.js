@@ -162,7 +162,7 @@ const data = {
     next: {
       name: 'Conclusion',
       slug: '/#footer',
-      title: 'Un monde de drone'
+      title: 'Un monde de drones'
     }
   }
 }
