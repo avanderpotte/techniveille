@@ -144,23 +144,24 @@ const data = {
         date: '04/01/2016'
       },
       {
-        name: 'Ehang 184',
-        constructor: 'Ehang',
-        description: 'Dernière création de l\'entreprise chinoise Ehang, il s\'agit du premier prototype de drône taxi. Dépourvu de toutes commandes, le passager s\'assoit dedans et n\'a qu\'à renseigner sa destination via la tablette tactile installée à l\'intérieur de l\'appareil, et se laisse transporter.L\'engin pèse une centaine de kilos, pour une autonomie de 23 minutes et une vitesse moyenne de 100 km/h. Une charge complète des batteries prend cependant 4 heures. Il ne peut transporter que des passagers dont le poids est inférieur à 100 kg.',
-        url: 'http://www.wired.com/2015/05/lily-robotics-drone/',
-        date: '05/12/2015'
-      },
-      {
         name: 'Disco',
         constructor: 'Parrot',
         description: 'Après les drones quadricoptères, place à l\'aile volante : Parrot a dévoilé lors du CES 2016 son premier modèle du genre, le “Disco”, capable de voler à 80 Km/h. l\'appareil (environ 700 grammes) adopte des lignes nettement plus agressives que le désormais traditionnel drone, avec deux larges ailes et une unique hélice en position arrière. A l\'avant, une caméra permet de visualiser le parcours et de profiter d\'un pilotage en vue à la première personne, par l\'intermédiaire d\'un smartphone ou de la télécommande développée par Parrot. Contrairement au quadricoptère, l\'aile volante ne peut pas voler à l\'arrêt. Elle devra donc être lancée à la main et rester en mouvement en permanence tout en tenant compte du vent. Favorisée par la portance, l\'autonomie se monterait à environ 45 minutes.',
         url: 'http://www.engadget.com/2016/01/04/parrots-disco-drone-takes-to-the-air-as-a-fixed-wing-ultralight/',
         date: '04/01/2016'
+      },
+      {
+        name: 'Alpha 300Q 3D Drone HoTT',
+        constructor: 'Graupner',
+        description: 'Créée en Janvier 2016, la Drone Race League regroupe les pilotes de drones les plus agiles et friands d\'adrénaline dans des courses à obstacles. Lancé à toute vitesse sur les circuits, le Alpha 300Q est le modèle préféré de pilotes semi-professionnels. Avec sa caméra ultra rapide et sa vitesse de pointe de 100km/h, le drone sorti le 16 décembre 2015 par un constructeur de voitures radiocommandées se retrouvera sans doute sur le podium cette saison.',
+        url: 'http://www.tomsguide.fr/actualite/drone-course,50004.html',
+        date: '27/01/2016'
       }
+
     ],
     next: {
       name: 'Conclusion',
-      slug: '/home',
+      slug: '/#footer',
       title: 'un monde de drone'
     }
   }

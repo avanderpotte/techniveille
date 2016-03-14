@@ -7,7 +7,6 @@
       <h2>{{data.name}}</h2>
       <h3>{{data.title}}</h3>
     </div>
-    <img class="hero__decorator" src="/static/img/category_Above.svg" alt="">
   </section>
   <section class="articles">
     <article class="article" v-for="(index, drone) in data.drones">
@@ -24,7 +23,6 @@
         </div>
       </div>
     </article>
-    <img class="articles__decorator" src="/static/img/category_Above.svg" alt="">
   </section>
   <modal v-bind:show.sync="showModal" v-ref:{{index}}>
 
@@ -44,7 +42,7 @@
 
    </modal>
   <section class="next">
-    <p>Article suivant</p>
+    <p>Catégorie suivant</p>
     <h5>{{data.next.title}}</h5>
     <a v-bind:href="data.next.slug">{{data.next.name}}</a>
   </section>

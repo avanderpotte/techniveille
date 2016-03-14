@@ -17,9 +17,10 @@
 		width: 100vw;
 		height: 100vh;
 		font-weight: 500;
-		background-image: url('/static/img/home_Above.svg');
-		background-position: center;
-		background-size: cover;
+		// background-image: url('/static/img/home_Above.svg');
+		// background-position: center;
+		// background-size: cover;
+		background-color: $blue;
 		position: relative;
 
 		&__title {
@@ -217,9 +218,10 @@
 	}
 
 	.footer{
-		background-image: url('/static/img/footer.svg');
-		background-position: center;
-		background-size: cover;
+		// background-image: url('/static/img/footer.svg');
+		// background-position: center;
+		// background-size: cover;
+		background-color: $blue;
 		width:100vw;
 		height:100vh;
 		text-align: center;
