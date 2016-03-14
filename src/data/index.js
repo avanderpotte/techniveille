@@ -6,13 +6,6 @@ const data = {
     img: '/static/img/categories/militaires/neuron.png',
     drones: [
       {
-        name: 'Orka-1200',
-        constructor: 'EADS',
-        description: 'Développé pour répondre au programme SDAM (Système de Drone Aérien de la Marine) initié par la Marine Nationale et la DGA. L\'Orka-1200 a été conçu pour effectuer des missions de patrouille maritime, de surveillance côtière, de guerre électronique et de lutte anti-sous-marine. Il peut être doté d\'un radar de veille maritime, de caméra thermique, à infrarouge, à vision de nuit. Le drone Orka peut également être dirigé depuis un autre hélicoptère.',
-        url: 'http://www.lemonde.fr/societe/article/2008/06/17/l-explosion-du-marche-des-drones_1059249_3224.html',
-        date: '17/06/2008'
-      },
-      {
         name: 'Sperwer',
         constructor: 'Sagem',
         description: 'Le drône Sperwer est destiné à un ensemble de missions, durant 6 heures, de renseignement, de surveillance et d\'acquisition de cibles et reconnaissance. Utilisé quotidiennement en opérations de combat, Sperwer répond parfaitement aux besoins des missions dévaluation précise de la situation tactique. Il dispose d\'un rayon d\'action de 200km et d\'une autonomie de 6 heures.',
@@ -32,6 +25,13 @@ const data = {
         description: 'Le “Radioplane OQ-2” a été le premier drone ayant été produit massivement au Etats-Unis. Il a été destiné à l\'entraînement au tir anti-aérien. Celui-ci est devenu l\'outil principal d\'entraînement des tireurs de l\'US Army en 1941,, également vendu à l\'US Navy à plusieurs milliers d\'exemplaires et rebaptisé TDD-1. Cependant, il a également été commercialisé sous le nom de “Dennymite” ( nommé après le nom du créateur Reginald Denny ).',
         url: 'http://www.militaryfactory.com/aircraft/detail.asp?aircraft_id=331',
         date: '21/04/2015'
+      },
+      {
+        name: 'Orka-1200',
+        constructor: 'EADS',
+        description: 'Développé pour répondre au programme SDAM (Système de Drone Aérien de la Marine) initié par la Marine Nationale et la DGA. L\'Orka-1200 a été conçu pour effectuer des missions de patrouille maritime, de surveillance côtière, de guerre électronique et de lutte anti-sous-marine. Il peut être doté d\'un radar de veille maritime, de caméra thermique, à infrarouge, à vision de nuit. Le drone Orka peut également être dirigé depuis un autre hélicoptère.',
+        url: 'http://www.lemarin.fr/secteurs-activites/defense/22011-des-drones-aeriens-pour-la-marine-nationale',
+        date: '27/05/2015'
       },
       {
         name: 'Flying gun',
@@ -71,8 +71,8 @@ const data = {
         name: 'FOX-C8 XT',
         constructor: 'Onyxstar',
         description: 'D\'abord créé pour supporter de lourdes charges, le FOX-C8 est devenu rapidement une référence pour les vidéastes. Il peut porter de lourdes caméras, ce qui a fait de lui un drone très utilisé dans le milieu professionnel. Aujourd\'hui dépassé par les modèle du chinois Dji, il est de plus en plus utilisé par les gendarmeries ou encore les pompiers pour repérer les zones à risque.',
-        url: 'http://aerialstocks.com/drone-embedded-lidar-technology-on-onyxstar-fox-c8-hd/',
-        date: '05/09/2015'
+        url: 'http://archives.nicematin.com/vallees/un-drone-va-voler-au-dessus-de-vos-tetes-pour-securiser-votre-trajet-sur-les-routes-de-monta.2378808.html',
+        date: '27/10/2015'
       },
       {
         name: 'Agras MG-1',
@@ -151,7 +151,7 @@ const data = {
         date: '04/01/2016'
       },
       {
-        name: 'Alpha 300Q 3D Drone HoTT',
+        name: 'Alpha 300Q',
         constructor: 'Graupner',
         description: 'Créée en Janvier 2016, la Drone Race League regroupe les pilotes de drones les plus agiles et friands d\'adrénaline dans des courses à obstacles. Lancé à toute vitesse sur les circuits, le Alpha 300Q est le modèle préféré de pilotes semi-professionnels. Avec sa caméra ultra rapide et sa vitesse de pointe de 100km/h, le drone sorti le 16 décembre 2015 par un constructeur de voitures radiocommandées se retrouvera sans doute sur le podium cette saison.',
         url: 'http://www.tomsguide.fr/actualite/drone-course,50004.html',
