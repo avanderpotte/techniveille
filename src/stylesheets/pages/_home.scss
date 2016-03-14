@@ -259,5 +259,13 @@
 			@include button($white, $blue);
 			margin-top: 5%;
 		}
+
+		&__gobelins{
+			display:block;
+			margin: 5% auto 0% auto;
+			filter: invert(100%);
+			-webkit-filter:invert(100%);
+			-moz-filter:invert(100%);
+		}
 	}
 }
