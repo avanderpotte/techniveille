@@ -21,7 +21,7 @@
             <img src="/static/img/drone.png" alt="" slot="image" class="modal-image">
             <!-- Quand les images seront dispos, dé-commente -->
             <!-- <img v-bind:src="drone.image"  alt="" slot="image" class="modal-image"> -->
-            
+
            <h4 slot="title">{{drone.constructor}}
               <small>
                 {{drone.name}}
@@ -46,8 +46,7 @@
   </section>
   <section class="next">
     <p>Article suivant</p>
-    <h5>Le business de demain</h5>
-    <br>
-    <a href="/services">Les drones de services</a>
+    <h5>{{data.next.title}}</h5>
+    <a href="/services">{{data.next.name}}</a>
   </section>
 </div>

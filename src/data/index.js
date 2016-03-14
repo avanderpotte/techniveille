@@ -1,5 +1,6 @@
 const data = {
   militaires: {
+    slug: 'militaires',
     name: 'Les drones militaires',
     title: 'La guerre à distance',
     drones: [
@@ -33,7 +34,11 @@ const data = {
         constructor: 'DIY',
         description: 'Un américain de 18 ans à dévoilé en octobre dernier son prototype d’arme volante. Le jeune homme du Connecticut à présenté sur une simple vidéo publiée sur youtube un drone transformé et muni d’un pistolet de calibre 9mm. Dans la vidéo, le pilote fait la démonstration du drone en le faisant voler et tirer plusieurs coups de feu. Il s’agit sans doute du premier drone “ménager” capable de tuer, et du premier drone à arme à feu. Plus tard dans l’année, des experts du droit américain ont déclaré que l’arme était, selon la loi, légale. L’homme à déclaré avoir réalisé ce drone pour un exercice pour son université et ne compte pas publier les plans.'
       }
-    ]
+    ],
+    next: {
+      name: 'Les drones de services',
+      title: 'Le business de demain'
+    }
   },
   services: {
     name: 'Les drones de services',
