@@ -31,17 +31,8 @@ export default Vue.extend({
 
   data () {
     return {
-      coverUrl: '/static/img/categories/' + this.$route.params.category + '/drone.png',
       data: this.data,
-      modalData: {},
       showModal: false
-    }
-  },
-
-  methods: {
-    launchModal (index) {
-      this.modalData = this.data.drones[index]
-      this.showModal = true
     }
   }
 })

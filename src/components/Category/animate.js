@@ -5,6 +5,7 @@ class Animate {
   testNodes () {
     if (document.querySelectorAll('.article').length === 6) {
       this.elements = document.querySelectorAll('.article')
+      console.log('6 here')
       this.listenScroll()
     } else {
       setTimeout(() => {
