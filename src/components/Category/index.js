@@ -1,6 +1,17 @@
 import Vue from 'vue'
 import Data from '../../data'
 
+export default Vue.component('modal', {
+  template: require('./popup-template.html'),
+  props: {
+    show: {
+      type: Boolean,
+      required: true,
+      twoWay: true
+    }
+  }
+})
+
 export default Vue.extend({
   name: 'Category',
   template: require('./template.html'),
@@ -18,7 +29,8 @@ export default Vue.extend({
   data () {
     return {
       coverUrl: '/static/img/categories/' + this.$route.params.category + '/drone.png',
-      data: this.data
+      data: this.data,
+      showModal: false
     }
   }
 })
