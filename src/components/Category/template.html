@@ -10,29 +10,11 @@
     <img class="hero__decorator" src="/static/img/category_Above.svg" alt="">
   </section>
   <section class="articles">
-    <article class="article" v-for="drone in data.drones">
+    <article class="article" v-for="(index, drone) in data.drones">
       <div class="article__content">
-        <figure class="article__content__image" @click="showModal = true">
+        <figure class="article__content__image" @click="launchModal(index)">
           <img v-bind:src="drone.image" alt="">
         </figure>
-        <modal v-bind:show.sync="showModal" v-ref:{{index}}>
-
-            <!-- Tester l'image -->
-            <img src="/static/img/drone.png" alt="" slot="image" class="modal-image">
-            <!-- Quand les images seront dispos, dé-commente -->
-            <!-- <img v-bind:src="drone.image"  alt="" slot="image" class="modal-image"> -->
-
-           <h4 slot="title">{{drone.constructor}}
-              <small>
-                {{drone.name}}
-              </small>
-            </h4>
-
-            <p slot="body">{{drone.description}}</p>
-
-            <a v-bind:href="drone.article_link" slot="link"> Accéder à l'article </a>
-
-         </modal>
         <div class="article__content__titles">
           <h4>{{drone.constructor}}
             <small>
@@ -44,6 +26,24 @@
     </article>
     <img class="articles__decorator" src="/static/img/category_Above.svg" alt="">
   </section>
+  <modal v-bind:show.sync="showModal" v-ref:{{index}}>
+
+      <!-- Tester l'image -->
+      <img src="/static/img/drone.png" alt="" slot="image" class="modal-image">
+      <!-- Quand les images seront dispos, dé-commente -->
+      <!-- <img v-bind:src="modalData.image"  alt="" slot="image" class="modal-image"> -->
+
+     <h4 slot="title">{{modalData.constructor}}
+        <small>
+          {{modalData.name}}
+        </small>
+      </h4>
+
+      <p slot="body">{{modalData.description}}</p>
+
+      <a v-bind:href="drone.article_link" slot="link"> Accéder à l'article </a>
+
+   </modal>
   <section class="next">
     <p>Article suivant</p>
     <h5>{{data.next.title}}</h5>
